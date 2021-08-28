@@ -9,7 +9,7 @@ from sqlalchemy.orm import sessionmaker, scoped_session
 
 from app.models import ForceRanks, Conversations, BotScripts, ScriptTesting, Tags, Sources
 
-db_url = os.getenv('DB_URL')
+db_url = os.getenv('DB_URL2')
 
 
 class Database(object):
